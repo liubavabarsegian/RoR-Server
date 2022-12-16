@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'result', to: 'server#result'
+
+  root 'server#result'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
